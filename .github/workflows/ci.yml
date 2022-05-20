@@ -19,7 +19,7 @@ jobs:
             - name: Install dependencies
               run: |
                   python3 -m pip install --upgrade pip poetry
-                  poetry install
+                  poetry install -E ssh
             - name: Test with pytest
               run: |
                   docker logout
