@@ -11,7 +11,7 @@ requests = "^2.27.1"
 paramiko = { version = "^2.4.3", optional = true}
 
 idna = { version = "^3.3", optional = true}
-pyOpenSSL = { version = "^17.5.0", optional = true}
+pyOpenSSL = { version = "^21.0.0", optional = true}
 cryptography = { version = "^3.4.7", optional = true}
 
 [tool.poetry.dev-dependencies]
