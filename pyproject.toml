@@ -17,7 +17,7 @@ cryptography = { version = "^3.4.7", optional = true}
 [tool.poetry.dev-dependencies]
 pylint = "^2.13.9"
 pytest = "^7.1.2"
-mypy = "^0.950"
+mypy = "^0.960"
 black = "^22.3.0"
 coverage = "^6.4"
 flake8 = "^4.0.1"
